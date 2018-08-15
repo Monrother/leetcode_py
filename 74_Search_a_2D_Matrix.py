@@ -5,6 +5,8 @@ class Solution(object):
         :type target: int
         :rtype: bool
         """
+        if len(matrix) == 0 or len(matrix[0]) == 0:
+            return False
         l = 0
         r = len(matrix) - 1
         while l <= r:
