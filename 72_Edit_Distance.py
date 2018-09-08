@@ -21,7 +21,7 @@ class Solution(object):
                         if word1[i - 1] == word2[j - 1]:
                             dp[j] = temp
                         else:
-                            dp[j] = min(dp[j], dp[j-1]) + 1
+                            dp[j] = min(dp[j], dp[j-1], temp) + 1
                         temp = temp2
         return dp[-1]
             
