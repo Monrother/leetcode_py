@@ -1,3 +1,6 @@
+## Leetcode 33 -- Search in Rotated Sorted Array
+# 基于二分法，根据 target、nums[0]、nums[m] 的关系，判断向哪个方向搜索。
+
 class Solution(object):
     def search(self, nums, target):
         """
