@@ -30,3 +30,19 @@ Python version of leetcode problems
 
 #### 38 Count and Say
 问题：
+
+#### 39 Combination Sum 
+问题：从数组 `candidates` 中找出所有可以使和等于 `target` 的组合，其中 `candidates` 中没有重复的元素，其中的每个元素都可以在组合中出现任意次。不能有重复的组合
+
+解法：DFS，每次只向当前结果中添加之后的数以避免重复。
+
+关键词：DFS、去重
+
+#### 40 Combination Sum II
+
+#### 41_First_Missing_Positive
+注意：考虑所有数都正确排列的情况。是数组的情况就要考虑空数组。
+
+关键词：基数排序、利用索引
+
+
