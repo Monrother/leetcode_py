@@ -40,9 +40,27 @@ Python version of leetcode problems
 
 #### 40 Combination Sum II
 
-#### 41_First_Missing_Positive
+#### 41 First Missing Positive
 注意：考虑所有数都正确排列的情况。是数组的情况就要考虑空数组。
 
 关键词：基数排序、利用索引
 
+#### 42 Trapping Rain Water
+问题：给定一个数组，并假设其描述的是一堆积木。求如果下过雨之后，其中可以装入的水的面积。
+
+描述：解决这个问题需要能够将应用题转化为数学模型。每个位置上“下雨过后”可以容纳的水，等于对应位置上左侧（包括自己）的最大数 `left` 和右侧（包括自己）的最大数 `right` 中的最小值。
+
+解法：线性扫描可以求出每个格子下雨后的高度，以及减去本身的高度后水的面积。
+
+#### 43 Multiply Strings
+问题：用字符串给出两个数 `num1` 和 `num2`，同样用字符串的形式返回两个数的乘积。
+
+解法：(1) 一个 `m` 位数和 `n` 位数相乘，最少为 `m + n - 1` 位，最多为 `m + n` 位。(2) 模拟两个整数的竖式乘法。
+
+#### 44 Permutations
+问题：给出数组 `nums` 的所有排列。
+
+关键词：DFS、valid 数组
+
+#### 45 Permutations II
 
