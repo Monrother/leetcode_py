@@ -57,10 +57,28 @@ Python version of leetcode problems
 
 解法：(1) 一个 `m` 位数和 `n` 位数相乘，最少为 `m + n - 1` 位，最多为 `m + n` 位。(2) 模拟两个整数的竖式乘法。
 
-#### 44 Permutations
+#### 46 Permutations
 问题：给出数组 `nums` 的所有排列。
 
 关键词：DFS、valid 数组
 
-#### 45 Permutations II
+#### 47 Permutations II
+
+
+#### 48 Rotate Image
+关键词：图像处理
+
+#### 49 Group Anagrams
+
+#### 51 N-Queens
+
+#### 53 Maximum Subarray 
+
+#### 54 Spiral Matrix
+
+
+#### 1043 Partition Array for Maximum Sum
+
+
+#### 1048 Longest String Chain
 
